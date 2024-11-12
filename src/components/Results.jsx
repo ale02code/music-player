@@ -9,7 +9,7 @@ function Results() {
   useEffect(() => {
     const pullData = async () => {
       try {
-        const response = await fetch("/api/search?q=corazon+de+piedra");
+        const response = await fetch("/api/search?q=murallaverde");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
@@ -44,7 +44,7 @@ function Results() {
                   <div>
                     <img
                       src={PlayIcon}
-                      alt="play Icon"
+                      alt="Play Icon"
                       className="h-full w-14"
                     />
                   </div>

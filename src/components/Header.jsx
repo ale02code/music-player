@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="bg-black text-white p-5">
       <Title />
-      <Search />  
+      <Search />
     </header>
   );
 }

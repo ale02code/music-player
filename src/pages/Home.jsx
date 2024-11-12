@@ -1,14 +1,13 @@
-import Header from "../components/Header";
-import Results from "../components/Results";
+// import Header from "../components/Header";
+import Navigation from "../components/Navigation";
 import { SearchContextProvider } from "../context/SearchContext";
 
 function Home() {
   return (
     <>
-      <SearchContextProvider>
-        <Header />
-        <Results />
-      </SearchContextProvider>
+      {/* <Header /> */}
+      <Navigation />
+      <SearchContextProvider></SearchContextProvider>
     </>
   );
 }
