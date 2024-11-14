@@ -5,7 +5,6 @@ import { SearchContextProvider } from "../context/SearchContext";
 function Home() {
   return (
     <>
-      {/* <Header /> */}
       <Navigation />
       <SearchContextProvider></SearchContextProvider>
     </>
